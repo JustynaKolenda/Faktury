@@ -51,6 +51,9 @@
             rows[i].insertBefore(td, rows[i].firstChild);
         }
 
+
+
+        
     </script>
 
 @endsection
