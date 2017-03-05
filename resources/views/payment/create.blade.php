@@ -13,11 +13,11 @@
     @endif
 
     <div class="form-group">
-        {!! Form::label('payment', "Cash:") !!}
+        {!! Form::label('payment', "Gotówka:") !!}
         {!! Form::text('cash', null, ['class'=>'form-control']) !!}
     </div>
     <div class="form-group">
-        {!! Form::label('payment', "Card:") !!}
+        {!! Form::label('payment', "Przelew:") !!}
         {!! Form::text('card', null, ['class'=>'form-control']) !!}
     </div>
 

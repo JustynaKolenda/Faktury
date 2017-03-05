@@ -23,6 +23,14 @@
                     <table id="datatable" class="table table-striped table-bordered">
                         @foreach($dane as $item)
                             <tr>
+                                <th>LP</th>
+                                <th>Gotówka</th>
+                                <th>Przelew</th>
+                                <th></th>
+                                <th></th>
+
+                            </tr>
+                            <tr>
                                 <td>{{$item->id}}</td>
                                 <td>{{$item->cash}}</td>
                                 <td>{{$item->card}}</td>
