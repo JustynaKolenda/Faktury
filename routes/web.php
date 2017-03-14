@@ -68,3 +68,13 @@ Route::resource('vatrate', 'VatRatesController', ['names' => [
     'show'      => 'vatrate.show',
     'edit'      => 'vatrate.edit',
 ]]);
+
+Route::resource('facture', 'FacturesController', ['names' => [
+    'index'     => 'facture.index',
+    'store'     => 'facture.store',
+    'create'    => 'facture.create',
+    'update'    => 'facture.update',
+    'destroy'   => 'facture.destroy',
+    'show'      => 'facture.show',
+    'edit'      => 'facture.edit',
+]]);

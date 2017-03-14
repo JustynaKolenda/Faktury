@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
+use App\Facture;
 
 class FacturesSeeder extends Seeder
 {
@@ -11,6 +12,8 @@ class FacturesSeeder extends Seeder
      */
     public function run()
     {
-        //
+        $facture = new \App\Facture();
+        $facture->facture;
+        $facture->save();
     }
 }
